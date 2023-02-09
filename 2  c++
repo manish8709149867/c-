@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{ 
+ int i,j,k;
+ int arr[5]={1,2,3,4,5};
+ j=++arr[2];
+ k=arr[1]++;
+ i=arr[j++];
+ printf("%d%d%d",i,j,k);
+ return 0;
+ 
+ 
+ OUTPUT=552
